@@ -1,0 +1,134 @@
+#a {
+    background-color: blue;
+    border: solid black 2px;
+    height: 75px;
+}
+
+#b {
+    background-color: red;
+    border: solid black 2px;
+    height: 150px;
+}
+
+#c {
+    background-color: green;
+    border: solid black 2px;
+    height: 125px;
+}
+
+#d {
+    background-color: yellow;
+    border: solid black 2px;
+    height: 125px;
+}
+
+#e {
+    background-color: Aquamarine ;
+    border: solid black 2px;
+    height: 250px;
+    width: 240px;
+    float: left;
+}
+
+#f {
+    background-color: magenta;
+    border: solid black 2px;
+    height: 250px;
+    width: 240px;
+    float: right;
+}
+
+#g {
+    background-color: pink;
+    border: solid black 2px;
+    height: 250px;
+    width: 240px;
+    float: left;
+}
+
+#h {
+    background-color: brown;
+    border: solid black 2px;
+    height: 250px;
+    width: 240px;
+    float: right;
+}
+
+#i {
+    background-color: Chartreuse 	;
+    border: solid black 2px;
+    height: 80px;
+    float: left;
+    width: 480px;
+}
+
+
+/* 
+
+@media(max-width: 767px){ 
+
+    #a {
+        background-color: black;
+        border: solid black 2px;
+        height: 100px;
+        width: 960px;
+    }
+    
+    #b {
+        background-color: red;
+        border: solid black 2px;
+        height: 150px;
+    }
+    
+    #c {
+        background-color: green;
+        border: solid black 2px;
+        height: 125px;
+    }
+    
+    #d {
+        background-color: yellow;
+        border: solid black 2px;
+        height: 125px;
+    }
+    
+    #e {
+        background-color: Aquamarine ;
+        border: solid black 2px;
+        height: 250px;
+        width: 240px;
+        float: left;
+    }
+    
+    #f {
+        background-color: magenta;
+        border: solid black 2px;
+        height: 250px;
+        width: 240px;
+        float: right;
+    }
+    
+    #g {
+        background-color: pink;
+        border: solid black 2px;
+        height: 250px;
+        width: 240px;
+        float: left;
+    }
+    
+    #h {
+        background-color: brown;
+        border: solid black 2px;
+        height: 250px;
+        width: 240px;
+        float: right;
+    }
+    
+    #i {
+        background-color: Chartreuse 	;
+        border: solid black 2px;
+        height: 80px;
+        float: left;
+        width: 480px;
+    }
+  } */

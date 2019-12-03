@@ -1,0 +1,12 @@
+/* On Desktop, float the divs in the section and center them */
+/* @media( min-width: 960px ) {
+
+    section {
+      display:table;
+    }
+  
+    div {
+      float:left;
+      margin: 2em;
+    }
+  } */
