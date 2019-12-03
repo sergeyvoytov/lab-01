@@ -4,9 +4,23 @@ box-sizing: border-box;
 body{
 max-width: 480px;
 margin: 0 auto;
+height: 100%;
 }
 p{
 text-align: center;
-/* vertical-align: auto; */
+vertical-align: middle;
+position: relative;
+top: 50%;
+
+}
+
+
+@media(){
+body{
+height: 100%;
+margin: auto;
+width: 960px;
+}
+
 
 }
