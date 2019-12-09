@@ -1,14 +1,24 @@
+section {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #a {
     background-color: blue;
     border: solid black 2px;
     height: 75px;
+    width: 100%;
     color: black;
+    /* display: flex; */
+    justify-content: right;
 }
 
 #b {
     background-color: red;
     border: solid black 2px;
     height: 150px;
+    width: 100%;
 }
 
 #c {
@@ -16,12 +26,14 @@
     border: solid black 2px;
     height: 125px;
     vertical-align: middle;
+    width: 100%;
 }
 
 #d {
     background-color: yellow;
     border: solid black 2px;
     height: 125px;
+    width: 100%;
 }
 
 #e {
@@ -29,7 +41,6 @@
     border: solid black 2px;
     height: 250px;
     width: 240px;
-    float: left;
 }
 
 #f {
@@ -37,7 +48,6 @@
     border: solid black 2px;
     height: 250px;
     width: 240px;
-    float: right;
 }
 
 #g {
@@ -45,7 +55,6 @@
     border: solid black 2px;
     height: 250px;
     width: 240px;
-    float: left;
 }
 
 #h {
@@ -53,84 +62,75 @@
     border: solid black 2px;
     height: 250px;
     width: 240px;
-    float: right;
 }
 
 #i {
     background-color: Chartreuse;
     border: solid black 2px;
     height: 80px;
-    float: left;
     width: 480px;
 }
 
 @media(min-width: 960px) {
     body {
-        float: left;
+        width: 960px;
     }
     #main {
-        display: table;
+        /* display: table; */
+        display: flex;
     }
     #a {
         background-color: blueviolet;
         border: solid black 2px;
         height: 100px;
-        width: 960px;
+        width: 100%;
     }
     #b {
         background-color: grey;
         border: solid black 2px;
         height: 600px;
         width: 200px;
-        float: left;
     }
     #c {
         background-color: goldenrod;
         border: solid black 2px;
         width: 380px;
         height: 200px;
-        float: left;
     }
     #d {
         background-color: hotpink;
         border: solid black 2px;
         height: 200px;
         width: 380px;
-        float: left;
     }
     #e {
         background-color: orange;
         border: solid black 2px;
         height: 250px;
         width: 190px;
-        float: left;
     }
     #f {
         background-color: yellow;
         border: solid black 2px;
         height: 250px;
         width: 190px;
-        float: left;
     }
     #g {
         background-color: pink;
         border: solid black 2px;
         height: 250px;
         width: 190px;
-        float: left;
     }
     #h {
         background-color: blue;
         border: solid black 2px;
         height: 250px;
         width: 190px;
-        float: left;
     }
     #i {
         background-color: limegreen;
         border: solid black 2px;
         height: 150px;
-        float: left;
-        width: 760px;
+        width: 100%;
     }
 }
