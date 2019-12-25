@@ -1,12 +1,16 @@
-/* On Desktop, float the divs in the section and center them */
-/* @media( min-width: 960px ) {
+  header, aside, section, footer {
+    grid-column: span 2;
+  }
 
-    section {
-      display:table;
+  @media(min-width: 768px) {
+    header {
+      grid-column: span 5;
     }
-  
-    div {
-      float:left;
-      margin: 2em;
+    aside {
+      grid-column: span 1;
+      grid-row: span 4;
     }
-  } */
+    footer {
+      grid-column: span 4;
+    }
+  }
